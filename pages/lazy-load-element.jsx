@@ -1,11 +1,11 @@
 import LazyLoad from "react-lazyload";
 
-function LazyLoad() {
+function LazyLoadElement() {
   return (
     <LazyLoad height={200} offset={100}>
-      <MyComponent />
+      <div />
     </LazyLoad>
   );
 }
 
-export default LazyLoad;
+export default LazyLoadElement;
